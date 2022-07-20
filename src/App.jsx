@@ -2,20 +2,13 @@ import { useContext } from 'react';
 import './App.css';
 import ComponenteHijo from "./componentes/ComponenteHijo";
 import {GlobalContext} from "./context/global/global.context";
-//import {useTraslation} from "react-i18next";
 import mifoto from '../src/assets/mifoto.jpeg';
 import {FaDropbox, FaStripe, FaGithub,} from 'react-icons/fa'; 
 
 
 function App() {
   const { add, substract} = useContext (GlobalContext);
-  //const {i18n, t} = useTraslation();
-  //const [language,setLenguage] =useState('es'); 
-
-  /*function changeLanguage(language){
-    i18n.changeLanguage(language);
-  }*/
-
+ 
   return (
     <div className="App">
       <div className='menu'>
@@ -37,7 +30,7 @@ function App() {
         <br/>
         <p className='parrafo'>A mi me gusta escuchar musica, leer, ver peliculas y series, cuando termine la carrera,
          espero poder trabajar como desarrolladora y seguir aprendiendo mas cosas sobre la carrera</p>
-        <br/>
+        <br/> 
         <button  className=' btn'
           style={{
             padding:'2%',
