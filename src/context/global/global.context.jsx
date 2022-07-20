@@ -14,7 +14,7 @@ export const GlobalProvider =({children})=> {
     };
 
     const substract = () =>{
-        setState((current) => ({...current, count: current.count -1 }));
+        setState((current) => ({...current, count: current.count -1 })); 
     };
 
     return(
