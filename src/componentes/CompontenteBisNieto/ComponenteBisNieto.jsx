@@ -10,8 +10,6 @@ export default function ComponenteBisNieto() {
             <h4 className="subT">Contador de visitas: {state.count ?? "No se ha recibido un valor"}</h4>
             <br/>
             <h4 className="subT">Tecnologias que manejan</h4>
-            
-            
         </div>
     );
 }
