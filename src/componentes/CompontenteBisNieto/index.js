@@ -1,1 +1,1 @@
-export { default } from "./ComponenteBisNieto";
+export { default } from "./ComponenteBisNieto"; 
